@@ -3,8 +3,8 @@
 import { motion } from "framer-motion";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Image from "next/image";
-import domain from "@/public/assets/services/domain.png";
-import cloud from "@/public/assets/services/cloud.png";
+import domain from "../../public/assets/services/domain.png";
+import cloud from "../../public/assets/services/cloud.png";
 
 export default function Services() {
   const containerVariants = {

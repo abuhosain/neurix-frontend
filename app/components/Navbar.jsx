@@ -10,7 +10,7 @@ import cloud from "/public/assets/services/cloud.png";
 import regDomain from "/public/assets/services/domain.png";
 import transDomain from "/public/assets/nav/switch-horizontal.png";
 import domainPricing from "/public/assets/nav/dollar-circle.png";
-import mainLogo from "@/public/assets/logo/main-logo.png";
+import mainLogo from "../../public/main-logo.png";
  
 
 

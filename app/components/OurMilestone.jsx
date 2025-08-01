@@ -3,8 +3,8 @@
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image";
-import handBlue from "@/public/assets/our-milestone/hand-blue-logo-min.jpg";
-import power from "@/public/assets/our-milestone/power.png";
+import handBlue from "../../public/assets/our-milestone/hand-blue-logo-min.jpg";
+import power from "../../public/assets/our-milestone/power.png";
 
 export default function OurMilestone() {
   const containerVariants = {

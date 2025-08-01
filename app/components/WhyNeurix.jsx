@@ -4,8 +4,8 @@ import { BsArrowRight } from "react-icons/bs"
 import { motion } from "framer-motion"
 import { useState, useEffect } from "react"
 import Image from "next/image"
-import startup from "@/public/assets/why-neurix/startup-logo-min.jpg"
-import nike from "@/public/assets/why-neurix/nike.png"
+import startup from "../..//public/assets/why-neurix/startup-logo-min.jpg"
+import nike from "../..//public/assets/why-neurix/nike.png"
 
 export default function WhyNeurix() {
   const [currentIndex, setCurrentIndex] = useState(0)

@@ -8,9 +8,9 @@ import { FaTiktok } from "react-icons/fa6";
 import Link from "next/link";
 import Image from "next/image";
 
-import chat from "@/public/assets/footer/chat.png";
-import pay from "@/public/assets/footer/pay-with.png";
-import mainLogo from "@/public/assets/logo/main-logo.png";
+import chat from "/public/assets/footer/chat.png";
+import pay from "/public/assets/footer/pay-with.png";
+import mainLogo from "../../public/main-logo.png";
  
 
 export default function Footer() {
