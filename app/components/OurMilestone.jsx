@@ -86,7 +86,7 @@ export default function OurMilestone() {
 
   return (
     <motion.section
-      className="text-white flex flex-col items-center pb-30 bg-cover bg-top bg-no-repeat"
+      className="text-white flex flex-col items-center pb-30 bg-cover bg-top bg-no-repeat mt-10"
       style={{
         backgroundImage: "url('/assets/our-milestone/galaxy-circle-min.png')",
       }}
@@ -95,7 +95,7 @@ export default function OurMilestone() {
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
     >
-      <motion.div className="-mt-10" variants={imageVariants}>
+      <motion.div className="-mt-10 " variants={imageVariants}>
         <Image
           src={handBlue || "/placeholder.svg"}
           alt="Hand Logo"
