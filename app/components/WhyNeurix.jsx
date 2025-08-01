@@ -77,7 +77,7 @@ export default function WhyNeurix() {
       viewport={{ once: true, amount: 0.2 }}
     >
       <motion.div className="w-full lg:w-1/2" variants={itemVariants}>
-        <motion.h4 className="text-[#D0D5DD] text-base md:text-lg lg:text-xl mb-2 md:mb-4" variants={itemVariants}>
+        <motion.h4 className="text-[#D0D5DD] text-base md:text-lg lg:text-xl mb-2 md:mb-4 font-semibold" variants={itemVariants}>
           Why Neurix?
         </motion.h4>
 
