@@ -9,7 +9,7 @@ export default function Hero() {
           Powerful, Scalable, and Easy-to-Managed Platform
         </h4>
         <h1 className="text-[34px] md:text-[48px] lg:text-[70px] leading-[105%] mt-4 w-5/6 md:w-4/6 lg:w-3/6">
-          Reliable Cloud Solution for SaaS & eCommerce
+          Reliable Cloud <br /> Solution for SaaS & eCommerce
         </h1>
         <p className="text-[16px] md:text-[20px] leading-[140%] font-normal text-[#FFFFFFB3] mt-9 w-5/6 lg:w-3/6">
           Deploy, scale, and grow — without limits — built to power your next
