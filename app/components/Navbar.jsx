@@ -10,6 +10,8 @@ import cloud from "/public/assets/services/cloud.png";
 import regDomain from "/public/assets/services/domain.png";
 import transDomain from "/public/assets/nav/switch-horizontal.png";
 import domainPricing from "/public/assets/nav/dollar-circle.png";
+import mainLogo from "@/public/assets/logo/main-logo.png";
+ 
 
 
 export default function Navbar() {
@@ -121,7 +123,7 @@ export default function Navbar() {
             whileTap={{ scale: 0.98 }}
           >
             <Image
-              src="/placeholder.svg?height=57&width=211"
+              src={mainLogo}
               alt="Neurix Logo"
               width={211}
               height={57}
@@ -325,7 +327,7 @@ export default function Navbar() {
             whileTap={{ scale: 0.98 }}
           >
             <FiUser className="text-xs md:text-[20px]" />
-            <span className="hidden sm:inline">Client Area</span>
+            <span className="hidden text-sm sm:inline">Client Area</span>
             <span className="sm:hidden">Login</span>
           </motion.a>
         </div>
