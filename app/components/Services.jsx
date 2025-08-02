@@ -90,7 +90,7 @@ export default function Services() {
           Our Services
         </motion.h4>
         <motion.h2
-          className="text-white text-3xl md:text-5xl md:w-5/6 lg:w-3/6 leading-[120%]"
+          className="text-white text-3xl md:text-5xl md:w-5/6 lg:w-3/6 font-medium leading-[120%]"
           variants={itemVariants}
         >
           Everything You Need to <br /> Launch & Grow Online
@@ -124,7 +124,7 @@ export default function Services() {
               />
             </motion.div>
             <motion.h4
-              className="text-xl md:text-2xl mb-2 md:mb-3"
+              className="text-xl md:text-2xl mb-2 md:mb-3 font-semibold"
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3, duration: 0.5 }}
@@ -197,7 +197,7 @@ export default function Services() {
               </motion.div>
             </div>
             <motion.h4
-              className="text-xl md:text-2xl mb-2 md:mb-3"
+              className="text-xl md:text-2xl mb-2 md:mb-3 font-semibold"
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3, duration: 0.5 }}

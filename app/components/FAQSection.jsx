@@ -109,10 +109,10 @@ export default function FAQSection() {
             FAQ
           </motion.h4>
           <motion.h1
-            className="text-white text-[30px] md:text-[38px] lg:text-[50px] mb-3 md:mb-4 leading-[115%]"
+            className="text-white text-[30px] md:text-[38px] lg:text-[50px] mb-3 md:mb-4 leading-[115%] font-medium"
             variants={itemVariants}
           >
-            Frequently Asked Questions
+            Frequently Asked <br /> Questions
           </motion.h1>
           <motion.p
             className="text-[#FFFFFFB3] text-lg md:text-xl mb-6 lg:mb-10 w-11/12 md:pr-16"

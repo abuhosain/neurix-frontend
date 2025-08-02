@@ -83,7 +83,7 @@ export default function WhyNeurix() {
 
         <motion.div className="mb-4 md:mb-6" variants={itemVariants}>
           <div className="flex items-start gap-2 md:gap-3">
-            <h1 className="text-xl md:text-2xl lg:text-[40px] leading-tight">Trusted by</h1>
+            <h1 className="text-xl md:text-2xl lg:text-[40px] leading-tight font-medium">Trusted by</h1>
             <div className="relative flex flex-col items-start h-16 -mt-6 lg:-mt-12 mb-6 md:h-20 lg:h-24">
               {[0, 1, 2].map((position) => {
                 // Calculate which phrase should be in this position
@@ -105,7 +105,7 @@ export default function WhyNeurix() {
                     }}
                     className={`whitespace-nowrap text-xl md:text-2xl lg:text-[40px] font-medium leading-tight ${
                       isMiddle
-                        ? "bg-gradient-to-r from-[#1488fc] to-[#042f4e] bg-clip-text text-transparent"
+                        ? "bg-gradient-to-r from-[#1488fc] to-[#042f4e] bg-clip-text text-transparent font-semibold"
                         : "text-[#666666]"
                     }`}
                     style={{

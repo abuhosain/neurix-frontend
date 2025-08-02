@@ -103,7 +103,7 @@ export default function HowItWorks() {
           How It Works
         </motion.h4>
         <motion.h1
-          className="text-white text-[30px] md:text-[38px] lg:text-[50px] leading-tight"
+          className="text-white text-[30px] md:text-[38px] lg:text-[50px] leading-tight font-medium"
           variants={itemVariants}
         >
           Get Online in Just 3 Easy Steps
@@ -139,7 +139,7 @@ export default function HowItWorks() {
             </motion.div>
 
             <motion.h2
-              className="text-2xl md:text-3xl text-[#E2E2E2] mb-4 md:mb-5 -mt-8 md:-mt-12"
+              className="text-2xl md:text-3xl text-[#E2E2E2] mb-4 md:mb-5 -mt-8 md:-mt-12 font-semibold"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 + index * 0.1, duration: 0.5 }}

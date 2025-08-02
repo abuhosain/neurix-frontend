@@ -99,7 +99,7 @@ export default function OurMilestone() {
         <Image
           src={handBlue || "/placeholder.svg"}
           alt="Hand Logo"
-          className="mx-auto mix-blend-lighten w-[462px] h-[462px]"
+          className="mx-auto mix-blend-lighten w-[462px] h-[462px] rounded-full"
           width={462}
           height={462}
           priority

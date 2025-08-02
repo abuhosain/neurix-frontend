@@ -7,7 +7,7 @@ export default function Header() {
     <header
       className="bg-cover bg-center  lg:bg-right bg-no-repeat pb-16 md:pb-26 mix-blend-lighten"
       style={{
-        backgroundImage: "url('/assets/hero/hero-bg-original-min.png')",
+        backgroundImage: "url('/assets/hero/BG.png')",
       }}
     >
       <main

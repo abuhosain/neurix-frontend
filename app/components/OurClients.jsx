@@ -64,7 +64,7 @@ export default function OurClients() {
     <section className="py-20">
       <div className="text-center mb-12 md:mb-20 p-1.5">
         <h4 className="text-[#D0D5DD] text-xl font-semibold">Our Happy Clients</h4>
-        <h1 className="text-white text-[30px] md:text-[38px] lg:text-[50px]">Trusted by Growing Brands</h1>
+        <h1 className="text-white text-[30px] md:text-[38px] lg:text-[50px] font-medium">Trusted by Growing Brands</h1>
       </div>
 
       <div className="overflow-hidden mt-12 relative">

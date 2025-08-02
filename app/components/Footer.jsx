@@ -275,7 +275,7 @@ export default function Footer() {
               | Powered by Nextup Global Ltd
             </a>
           </p>
-          <div className="w-full max-w-[200px] md:max-w-[300px] lg:w-[50%]">
+          <div className="w-full max-w-[200px] md:max-w-[300px] lg:max-w-[450px] lg:w-[50%]">
             <Image
               src={pay}
               alt="Payment methods"
