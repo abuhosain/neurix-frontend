@@ -1,0 +1,7 @@
+a:focus,
+a:active,
+button:focus,
+button:active {
+  background-color: transparent !important;
+  outline: none;
+}
